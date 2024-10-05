@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc285e5a-abeb-4947-b081-bbbeb3b11be2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/payments/CardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/payments/IPayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/payments/PayPalPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/payments/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/payments/PaymentFactory.java" afterDir="false" />
+    <list default="true" id="fc285e5a-abeb-4947-b081-bbbeb3b11be2" name="Changes" comment="Payment Systems">
+      <change afterPath="$PROJECT_DIR$/src/notification/NotificationFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notification/notifications/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notification/notifications/INotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notification/notifications/PushNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notification/notifications/SMSNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payments/CardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/payments/CardPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payments/IPayable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/payments/IPayable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payments/PayPalPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/payments/PayPalPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payments/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/payments/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payments/PaymentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/payments/PaymentFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -92,11 +94,24 @@
       <workItem from="1728213431751" duration="5445000" />
       <workItem from="1728229868134" duration="423000" />
       <workItem from="1728230320842" duration="402000" />
-      <workItem from="1728230728350" duration="867000" />
+      <workItem from="1728230728350" duration="8971000" />
     </task>
+    <task id="LOCAL-00001" summary="Payment Systems">
+      <option name="closed" value="true" />
+      <created>1728234521513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728234521513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Payment Systems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Payment Systems" />
   </component>
 </project>

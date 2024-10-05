@@ -1,32 +1,17 @@
 package payments;
 
-public class CardPayment extends Payment {
-    private String cardNumber;
-    private String expireDate;
-    private String cvv;
+import java.util.Map;
 
-    public CardPayment(double amount, String cardNumber, String expireDate, String cvv) {
-        super(amount);
-        this.cardNumber = cardNumber;
-        this.expireDate = expireDate;
-        this.cvv = cvv;
+public class CardPayment extends Payment {
+
+
+    public CardPayment(double amount, Map<String, String> credentials) {
+        super(amount, credentials);
     }
 
     @Override
     public void pay() {
-        System.out.println("Card payment of " + amount + " made with card number " + cardNumber);
-    }
-
-    public String getCardNumber() {
-        return cardNumber;
-    }
-
-    public String getExpireDate() {
-        return expireDate;
-    }
-
-    public String getCvv() {
-        return cvv;
+        System.out.println("Card payment of " + amount + " made with card number " + credentials.get("cardNumber") + " and expiry date " + credentials.get("expiryDate"));
     }
 }
 

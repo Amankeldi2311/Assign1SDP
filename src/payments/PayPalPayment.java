@@ -1,19 +1,16 @@
 package payments;
 
-public class PayPalPayment extends Payment{
-    private String paymentToken;
+import java.util.Map;
 
-    public PayPalPayment(double amount, String paymentToken) {
-        super(amount);
-        this.paymentToken = paymentToken;
+public class PayPalPayment extends Payment {
+
+
+    public PayPalPayment(double amount, Map<String, String> credentials) {
+        super(amount, credentials);
     }
 
     @Override
     public void pay() {
-        System.out.println("PayPal payment of " + amount + " made with payment token " + paymentToken);
-    }
-
-public String getPaymentToken() {
-        return paymentToken;
+        System.out.println("PayPal payment of " + amount + " made with email " + credentials.get("email"));
     }
 }
